@@ -3,7 +3,7 @@ import { useRef, useState } from "react";
 import Card from "../UI/Card";
 import LoadingSpinner from "../UI/LoadingSpinner";
 import classes from "./QuoteForm.module.css";
-import { usePrompt } from "../../hooks/use-propmt";
+import { usePrompt } from "../../hooks/use-prompt";
 
 const QuoteForm = (props) => {
   const [isEntered, setIsEntered] = useState(false);
